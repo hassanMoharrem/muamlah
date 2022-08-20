@@ -3069,7 +3069,12 @@ span.wpcf7-list-item label {
     padding-bottom: 8px;
     font-size: 17px;
   }
-
+  .elementor-column.elementor-col-25, .elementor-column[data-col="25"]{
+    width: auto !important;
+  }
+  .elementor-row{
+    display: block !important;
+  }
   .row.row-split-content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
