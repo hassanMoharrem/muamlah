@@ -67,13 +67,18 @@ with others.
 /* -------------------------------------------------------------------------- */
 
 *, html, body , .handwriting{    
-    font-family: 'Avenir Arabic', sans-serif !important;
+    font-family: 'Avenir Arabic', sans-serif;
     font-weight: normal !important;
      font-style: normal !important;
 }
+.elementor-element.elementor-element-51e86676 .wpb-counter-number .counter  , .elementor-element.elementor-element-24c6f6de .wpb-counter-number .counter , .elementor-element.elementor-element-a970946 .wpb-counter-number .counter , .elementor-1620 .elementor-element.elementor-element-2c74c415 .wpb-counter-number .counter {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600 !important;
+    font-style: normal !important;
 
+}
 h1, h2, h3, h4, h5, h6,.herotitle,.typed-words.home, .herotyped, .large-heading.larger, .nav-menu-button-wrapper .nav-functions a.button.dark.w-button, .nav-link .row.no-wrap > div, nav a.nav-link.w-nav-link, *[dir="rtl"] .herobuttonsfloatinglabel-copy, .herobuttondivb a.button.dark.main.w-button{
-  font-family: 'Avenir Arabic', sans-serif !important;
+  font-family: 'Avenir Arabic', sans-serif;
   font-weight: bold !important;
     font-style: normal !important;
 }
@@ -315,3 +320,7 @@ h1, h2, h3, h4, h5, h6,.herotitle,.typed-words.home, .herotyped, .large-heading.
 	text-decoration: none;
 }
 .partnerwrapper .paragraph.greyish {text-align: right;}
+.elementor-element.elementor-element-51e86676 .wpb-counter-number .counter {
+    font-family: "Montserrat", Sans-serif !important;
+
+}

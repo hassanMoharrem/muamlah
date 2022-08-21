@@ -1,3 +1,7 @@
+@font-face {
+  src: url("../../webfonts/Montserrat-BoldItalic.otf");
+  font-family: "Montserrat", Sans-serif;
+}
 .w-layout-grid {
   display: -ms-grid;
   display: grid;
@@ -888,7 +892,7 @@ input.wpcf7-form-control.wpcf7-submit.button {
 }
 .elementor-element.elementor-element-a970946 .wpb-counter-title {
   color: #757575;
-  font-family: "Montserrat", Sans-serif;
+  font-family: "Montserrat", Sans-serif !important;
   font-size: 15px;
   font-weight: normal;
   text-transform: uppercase;
@@ -897,14 +901,18 @@ input.wpcf7-form-control.wpcf7-submit.button {
 }
 .elementor-element.elementor-element-51e86676 .wpb-counter-number {
   color: #212121;
-  font-family: "Montserrat", Sans-serif;
+  font-family: "Montserrat", Sans-serif !important;
   font-size: 40px;
   font-weight: 600;
   line-height: 1em;
 }
+.elementor-element.elementor-element-51e86676 .wpb-counter-number .counter {
+  font-family: "Montserrat", Sans-serif !important;
+
+}
 .elementor-element.elementor-element-51e86676 .wpb-counter-title {
   color: #757575;
-  font-family: "Montserrat", Sans-serif;
+  font-family: "Montserrat", Sans-serif !important;
   font-size: 15px;
   font-weight: normal;
   text-transform: uppercase;
@@ -913,14 +921,14 @@ input.wpcf7-form-control.wpcf7-submit.button {
 }
 .elementor-element.elementor-element-24c6f6de .wpb-counter-number {
   color: #212121;
-  font-family: "Montserrat", Sans-serif;
+  font-family: "Montserrat", Sans-serif !important;
   font-size: 40px;
   font-weight: 600;
   line-height: 1em;
 }
 .elementor-element.elementor-element-24c6f6de .wpb-counter-title {
   color: #757575;
-  font-family: "Montserrat", Sans-serif;
+  font-family: "Montserrat", Sans-serif !important;
   font-size: 15px;
   font-weight: normal;
   text-transform: uppercase;
@@ -3032,7 +3040,18 @@ span.wpcf7-list-item label {
   font-size: 20px;
   font-weight: 600;
 }
-
+.accordion-button:focus{
+  box-shadow: 0 0 0 !important;
+  border-color: transparent !important;
+}
+.accordion-button:not(.collapsed){
+  background-color: transparent !important;
+  box-shadow: 0 0 0 !important;
+}
+.accordion-button::after {
+  margin-left: 0;
+  margin-right: auto;
+}
 .colored_backgound.grey {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#e5ebed), to(#e5ebed));
   background-image: linear-gradient(180deg, #e5ebed, #e5ebed);
