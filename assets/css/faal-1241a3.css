@@ -3167,6 +3167,9 @@ span.wpcf7-list-item label {
     padding-bottom: 8px;
     font-size: 17px;
   }
+  .w-30logo{
+    width: 30px !important;
+  }
   .elementor-column.elementor-col-25, .elementor-column[data-col="25"]{
     width: auto !important;
   }

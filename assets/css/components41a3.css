@@ -1601,7 +1601,7 @@ textarea.w-select {
 }
 .w-nav-brand {
   position: relative;
-  float: left;
+  float: right;
   text-decoration: none;
   color: #333333;
 }
