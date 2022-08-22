@@ -864,6 +864,43 @@ input.wpcf7-form-control.wpcf7-submit.button {
 .text-right{
   text-align: right;
 }
+.w-90px{
+  width: 90px !important;
+}
+.px-5-e{
+  padding: 30px 60px 30px 60px !important;
+}
+.owl-carousel .owl-prev {
+  position: absolute;
+  font-size: 50px !important;
+  top: 35%;
+  right: -30px;
+  z-index: 22;
+  color: #1A7E9F !important;
+}
+.owl-carousel .owl-next {
+  position: absolute;
+  font-size: 50px !important;
+  top: 35%;
+  left: -30px;
+  z-index: 22;
+  color: #1A7E9F !important;
+}
+.owl-carousel-1 .owl-item img {
+  display: block;
+  width: 80px !important;
+  object-fit: cover;
+
+}
+.owl-carousel{
+  display: block !important;
+}
+.contain{
+  object-fit: contain;
+}
+.end-n-40{
+  right: -45px;
+}
 .elementor-1620 .elementor-element.elementor-element-2c74c415 .wpb-counter.v-layout {
   align-items: center;
 }

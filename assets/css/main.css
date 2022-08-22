@@ -377,16 +377,16 @@ figure.wp-block-image img.lazyloading { min-width: 150px; }
 
 .pricing .pricing-card .pricing-btn .custom-btn {
     width: 100%;
-    border-color: var(--mainColor);
+    border-color: #027C21;
     border-radius: 10px;
-    color: var(--mainColor);
+    color: #027C21;
     background-color: var(--whiteColor);
     padding: 15px;
 }
 
 .pricing .pricing-card .pricing-btn button.custom-btn:not(.custom-btn.mt-2) {
     color: var(--whiteColor);
-    background-color: var(--main-color);
+    background: #027C21;
     margin-bottom: 10px;
 
 }
@@ -395,7 +395,7 @@ figure.wp-block-image img.lazyloading { min-width: 150px; }
 .pricing .pricing-card .pricing-btn .custom-btn:focus {
 
     color: var(--whiteColor)  !important;
-    background-image: var(--mainBackground);
+    background: #027C21;
     
 }
 

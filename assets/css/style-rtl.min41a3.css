@@ -80,6 +80,10 @@
     font-family: "Montserrat", Sans-serif !important;
 
 }
+.edit-font {
+    font-family: "Montserrat", Sans-serif !important;
+
+}
 @supports (column-gap:0.5em) {
     .wp-block-buttons.is-content-justification-right > .wp-block-button.wp-block-button, .wp-block-buttons > .wp-block-button.wp-block-button {
         margin-left: 0;
