@@ -97,7 +97,7 @@ figure.wp-block-image img.lazyloading { min-width: 150px; }
 /* Table */
 .pricing-table {
     display: grid !important;
-    grid-template-columns : repeat(auto-fill , minmax(25% , 1fr));
+    grid-template-columns : repeat(auto-fill , minmax(30% , 1fr));
     direction: rtl;
     list-style: none;
     padding: 0;
@@ -202,7 +202,7 @@ figure.wp-block-image img.lazyloading { min-width: 150px; }
 
 @media (max-width : 575px) {
     .pricing-table li > div {
-        min-height: 130px;
+        min-height: 150px;
         /* min-height: 120px; */
 
     }
@@ -232,7 +232,7 @@ figure.wp-block-image img.lazyloading { min-width: 150px; }
 }
 
 .table-line.first {
-    width: 400% !important;
+    width: 300% !important;
     background-color: #e3e3e3  !important;
     position: relative;
     z-index: 15;
@@ -337,6 +337,9 @@ figure.wp-block-image img.lazyloading { min-width: 150px; }
     }
     .pricing .pricing-card.active {
         top: 0 !important;
+    }
+    .pricing-table li div:first-of-type{
+        font-size: 17px !important;
     }
 }
 
