@@ -2344,7 +2344,42 @@ input.wpcf7-form-control.wpcf7-submit.button {
   font-weight: 700;
   letter-spacing: -0.03em;
 }
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.h-32{
+  height: 32px;
+}
+input:focus-visible{
+  box-shadow: 0 0 0 !important;
+  border: 0 !important;
+  outline: none;
 
+}
+.w-20{
+  width: 20%;
+}
+.w-17{
+  width: 17%;
+}
+.filter{
+  filter: grayscale(100%);
+
+}
+.filter:hover{
+  filter: grayscale(0%) !important;
+  transition: ease 1s;
+
+}
+.px-10px{
+  padding: 0 10px;
+}
+.btn-check:focus + .btn-danger, .btn-danger:focus{
+  box-shadow: 0 0 0 !important;
+}
+.btn-check:focus + .btn-success, .btn-success:focus{
+  box-shadow: 0 0 0 !important;
+}
 .large-heading.larger {
   font-size: 96px;
   line-height: 96px;
