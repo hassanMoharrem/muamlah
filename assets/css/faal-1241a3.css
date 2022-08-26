@@ -2362,15 +2362,7 @@ input:focus-visible{
 .w-17{
   width: 17%;
 }
-.filter{
-  filter: grayscale(100%);
 
-}
-.filter:hover{
-  filter: grayscale(0%) !important;
-  transition: ease 1s;
-
-}
 .px-10px{
   padding: 0 10px;
 }
