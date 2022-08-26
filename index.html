@@ -174,8 +174,8 @@ background-repeat: no-repeat;">
         </div>
         <div class="site-body">
             <div>
-                <div class="container">
-                    <div class="row1 inverted">
+                <div class="container pt-5" id="sec-1">
+                    <div class="row1 inverted mt-2">
                         <div class="row1-col">
                                 <h6 class="solution restaurants mb-2">نظام عصري، متقدم، سريع، وسهل الإستخدام.</h6>
                             <h3 class="h1">
@@ -348,7 +348,7 @@ background-repeat: no-repeat;">
 
                 </div>
 
-                <div class="container pt-5" id="sec-1">
+                <div class="container pt-5">
                     <div class="row1 pt-4">
                         <div class="row1-col photo">
                                                 <img  loading="lazy" alt="" data-src="./assets/images/map.jpeg" width="85%" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img src="wp-content/uploads/2021/06/5.png" loading="lazy" alt=""></noscript>
@@ -374,13 +374,13 @@ background-repeat: no-repeat;">
                                         <li class="mt-1 mb-2 text-muted">للوكيل إدارة معاملات الشركة في أي مدينة بميزة بتوكيل الغير .</li>
                                     </ul>
                                       <div class="d-flex w-100 mb-3 pe-3">
-                                          <img src="assets/images/1631309614.jpg" width="40px" height="40px" class="contain mx-1" alt="">
-                                          <img src="assets/images/1631309687.jpg" width="40px" height="40px" class="contain mx-1" alt="">
-                                          <img src="assets/images/1631309731.jpg" width="40px" height="40px" class="contain mx-1" alt="">
-                                          <img src="assets/images/1631309786.jpg" width="40px" height="40px" class="contain mx-1" alt="">
-                                          <img src="assets/images/1631309828.jpg" width="40px" height="40px" class="contain mx-1" alt="">
-                                          <img src="assets/images/1631309861.jpg" width="40px" height="40px" class="contain mx-1" alt="">
-                                          <img src="assets/images/1631309906.jpg" width="40px" height="40px" class="contain mx-1" alt="">
+                                          <img src="assets/images/1631309614.jpg" width="40px" height="40px" class="contain mx-1 filter" alt="">
+                                          <img src="assets/images/1631309687.jpg" width="40px" height="40px" class="contain mx-1 filter" alt="">
+                                          <img src="assets/images/1631309731.jpg" width="40px" height="40px" class="contain mx-1 filter" alt="">
+                                          <img src="assets/images/1631309786.jpg" width="40px" height="40px" class="contain mx-1 filter" alt="">
+                                          <img src="assets/images/1631309828.jpg" width="40px" height="40px" class="contain mx-1 filter" alt="">
+                                          <img src="assets/images/1631309861.jpg" width="40px" height="40px" class="contain mx-1 filter" alt="">
+                                          <img src="assets/images/1631309906.jpg" width="40px" height="40px" class="contain mx-1 filter" alt="">
                                       </div>
 
                                 </div>
@@ -481,10 +481,16 @@ background-repeat: no-repeat;">
                     <div class="parent grid-2">
                         <div class="col-12 wow bounceInUp" data-wow-duration="1.2s">
                             <div class="pricing-card text-right">
-                                <div class="pricing-name lh-base text-center">باقة رواد الأعمال
-                                    <span class="text-decoration-line-through text-danger edit-font fw-bolder">2000 ريال</span>
-                                    خصم 50 % لفترة محدودة <span class="text-success edit-font fw-bolder"> 1000 ريال </span>
-                                </div>
+                                <div class="pricing-name lh-base text-center">
+                                    <span class="h2 mb-0 fw-bolder">باقة رواد الأعمال</span>
+                                    <h5 class="edit-font "><span class="text-decoration-line-through h3 mb-0">3000 ريال </span><span class=" mx-1 h3 mb-0">- 50%</span></h5>
+                                    <input id="total-price" class="edit-font h3 border-0 text-center w-20" readonly="readonly" value="1500" /><span class="h3">ريال</span>
+                                    <div class="d-flex  mx-auto text-center mt-2">
+                                        <span class="h5 me-auto my-auto ms-2">عدد الموظفين :</span>
+                                        <input type="button" class="btn px-10px btn-sm rounded-10 border" value="-" id="minus" />
+                                        <input type="text" id="quantity" value="10" min="10" class="w-17 text-center border-0 h-32" name="quantity" disabled />
+                                        <input type="button"  class="ms-auto btn btn-sm rounded-10 border" value="+" id="plus" /></div>
+                                  </div>
                                 <div class="accordion accordion-flush" id="accordionFlushExample">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="flush-headingOne">
@@ -1230,7 +1236,14 @@ background-repeat: no-repeat;">
                         </div>
                         <div class="col-12 wow bounceInLeft" data-wow-duration="1.2s">
                       <div class="pricing-card text-right">
-                          <div class="pricing-name lh-base text-center">الباقة المتقدمة
+                          <div class="pricing-name lh-base text-center">
+                              <span class="d-block mb-3 h2 mb-0 fw-bolder">باقة الشركات</span>
+                              <input id="total-price1" class="edit-font h3 border-0 text-center w-25" readonly="readonly" value="4500" /><span class="h3">ريال</span>
+                              <div class="d-flex  mx-auto text-center mt-2">
+                                  <span class="h5 me-auto my-auto ms-2">عدد الموظفين :</span>
+                                  <input type="button" class="btn px-10px btn-sm rounded-10 border" value="-" id="minus1" />
+                                  <input type="text" id="quantity1" value="10" min="10" class="w-17 text-center border-0 h-32" name="quantity1" disabled />
+                                  <input type="button"  class="ms-auto btn btn-sm rounded-10 border" value="+" id="plus1" /></div>
                           </div>
                           <div class="accordion accordion-flush" id="accordionFlushExample1">
                               <div class="accordion-item">
@@ -2479,7 +2492,74 @@ background-repeat: no-repeat;">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
                 integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
                 crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            <script>
+                $('#plus').click(function add() {
+                    var $qtde = $("#quantity");
 
+                    var a = $qtde.val();
+
+                    a++;
+                    $("#minus").attr("disabled", !a);
+                    $qtde.val(a);
+                });
+                $("#minus").attr($("#quantity").val());
+
+                $('#minus').click(function minust() {
+                    var $qtde = $("#quantity");
+                    var b = $qtde.val();
+                    if (b >= 11) {
+                        b--;
+                        $qtde.val(b);
+                    } else {
+                        $("#minus").attr("disabled", true);
+                    }
+                });
+
+                /* On change */
+                $(document).ready(function() {
+                    function updatePrice() {
+                        $("#total-price").val(parseFloat($("#quantity").val()*150));
+                    }
+                    // On the click of an input, update the price
+                    $(document).on("click", "input", updatePrice);
+                });
+            </script>
+            <script>
+                $('#plus1').click(function add1() {
+                    var $qtde = $("#quantity1");
+
+                    var a = $qtde.val();
+
+                    a++;
+                    $("#minus1").attr("disabled", !a);
+                    $qtde.val(a);
+                });
+                $("#minus1").attr($("#quantity1").val());
+
+                $('#minus1').click(function minust1() {
+                    var $qtde = $("#quantity1");
+                    var b = $qtde.val();
+                    if (b >= 11) {
+                        b--;
+                        $qtde.val(b);
+                    } else {
+                        $("#minus1").attr("disabled", true);
+                    }
+                });
+
+                /* On change */
+                $(document).ready(function() {
+                    function updatePrice1() {
+                        var price = ($("#quantity1").val());
+                        var price2 = ($("#total-price1").val());
+                        var total = (price);
+                        $("#total-price1").val(total*200 + 2500);
+
+                    }
+                    // On the click of an input, update the price
+                    $(document).on("click", "input", updatePrice1);
+                });
+            </script>
         <script>
         $(document).ready(function($) {
             //Check if an element was in a screen
